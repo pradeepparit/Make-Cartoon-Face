@@ -11,6 +11,6 @@ cartoon = cv2.bitwise_and(color, color, mask=edges)
 
 cv2.imshow("Image", img)
 cv2.imshow("edges", edges)
-cv2.imshow("Carton", cartoon)
+cv2.imshow("Cartoon", cartoon)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
